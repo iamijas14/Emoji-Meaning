@@ -2,3 +2,15 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+body {
+  background-color: #f472b6;
+}
+
+#input {
+  padding: 0.5rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
