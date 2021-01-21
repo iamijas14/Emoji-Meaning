@@ -20,7 +20,7 @@ export default function App() {
     var meaning = EmojisDictionary[userInput];
 
     if (meaning === undefined) {
-      meaning = "We don't we this in our database";
+      meaning = "We don't have this in our database";
     }
     setemoji(meaning);
   }
