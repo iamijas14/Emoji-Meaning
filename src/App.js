@@ -18,6 +18,10 @@ export default function App() {
   function inputHandler(event) {
     var userInput = event.target.value;
     var meaning = EmojisDictionary[userInput];
+
+    if (meaning === undefined) {
+      meaning = "We don't we this in our database";
+    }
     setemoji(meaning);
   }
   function clickHandler(emoji) {
